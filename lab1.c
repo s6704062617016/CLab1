@@ -3,10 +3,8 @@
 int main() {
   int num1;
   int num2;
-  print("n1:")
-  scarf("%d",&num1)
-  print("n2:")
-  scarf("%d",&num2)
+  print("n1 n2:");
+  scarf("%d%d",&num1,&num2);
   if (num1 > num2) {
      printf("num1 is greater num2");
      //diff of num1 and num2
